@@ -51,7 +51,7 @@ express the following propositions in English senteneces (the first two are done
 |$\neg \exists x \ S(x)$|There does not exist a person who is a student.|
 |$\exists x \ \neg S(x)$|There exists a person who is not a student.|
 |$\neg \forall x \ \neg S(x)$|Not all people are not students.|
-|$\forall x \ \neg S(x)$|All people|
+|$\forall x \ \neg S(x)$|All people are not students.|
 
 ## Question 3 (6 points)
 
