@@ -95,9 +95,9 @@ Evaluate the following propositions to be True or False given that the domain of
 |$\exists x \ (x \text{ is odd})$|T|
 |$\forall x \ (x \text{ is negative})$|F|
 |$\exists x \ (x \text{ is negative})$|T|
-|$\forall x \ (x^2 \ge 0)$|F|
+|$\forall x \ (x^2 \ge 0)$|T|
 |$\exists x \ (x^2 \ge 0)$|T|
-|$\exists x \ (x + x = 1)$|T|
+|$\exists x \ (x + x = 1)$|F|
 |$\exists x \ (x + 2 = 1)$|T|
 
 ## Question 5 (10 points)
@@ -107,11 +107,11 @@ Negate each of the following logical statements by adding a negation symbol $\ne
 |Predicate|$\neg$ Predicate|
 |:-:|:-:|
 |$\forall x \forall y \ P(x,y)$|$\exists x \exists y \ \neg P(x,y)$|
-|$\exists x \forall y \ P(x,y)$|$\forall x \forall y \ \neg P(x,y)$|
+|$\exists x \forall y \ P(x,y)$|$\forall x \exists y \ \neg P(x,y)$|
 |$\exists x \exists y \forall z \ \neg P(x,y,z)$|$\forall x \forall y \forall z \ P(x,y,z)$|
 |$\forall x \exists y \forall z \ P(x,y,z)$|$\exists x \forall y \exists z \ \neg P(x,y,z)$|
-|$\exists x \exists y \ (P(x,y) \land Q(x,y))$|$\forall x \forall y \ ( \neg P(x,y) \ \land Q(x,y))$|
-|$\forall x \forall y \exists z \ (P(x,y) \to Q(y,z))$|$\exists x \exists y \forall z \ \ ( \neg P(x,y) \ \lor \  Q(y,z))$|
+|$\exists x \exists y \ (P(x,y) \land Q(x,y))$|$\forall x \forall y \ (\neg P(x,y) \ \lor \ \neg Q(x,y))$|
+|$\forall x \forall y \exists z \ (P(x,y) \to Q(y,z))$|$\exists x \exists y \forall z \ (P(x,y) \ \land \ \neg Q(y,z))$|
 
 ## Question 6 (11 points)
 
