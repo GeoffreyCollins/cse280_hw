@@ -132,63 +132,24 @@ def in_unit_circle(point):
 
 def forall(predicate, domain):
     print(f"\u2200x ({predicate.__name__}) domain={domain}")
-    for i in range(len(domain)):
-        if all([is_even(i)]):
-            return True
-        
-        if all([is_natural[i]]):
-            return True
-        
-        if all([is_palindrome[i]]):
-            return True
-        
-        if all([in_unit_circle(i)]):
-            return True
-        
-        else:
+    for i in domain:
+        result = predicate(i)
+        bool_var = True
+        if result == True:
+            return bool_var 
+        if result == False:
             return False
-
+    
 def exists(predicate, domain):
     print(f"\u2203x ({predicate.__name__}) domain={domain}")
-    
-    for i in range(len(domain) - 1):
-
-        
-        # Counts to track whether or not at least one value exists in the list that proves the predicate to be true
-        even_count = 0
-        nat_count = 0
-        pali_count = 0
-        circle_count = 0
-        # Logic for the predicate stating at least one number is even
-        even = is_even(i)
-        if even == True:
-            even_count += 1
-        if (even_count > 0):
-            return True
-        
-        # Logic for the predicate stating at least one number is natural 
-        natural = is_natural(i)
-        if natural == True:
-            nat_count += 1
-        if (nat_count > 0):
-             return True
-        
-        # Logic for the predicate stating at least one word is a palindrome
-        palindrome = is_palindrome(domain)
-        if palindrome == True:
-            pali_count += 1
-        if (pali_count > 0):
-            return True
-        
-        # Logic for the predicate stating at least one coordinate is in the unit circle
-        circle_point = in_unit_circle(i)
-        if circle_point == True:
-            circle_count += 1
-        if (circle_count > 0):
-            return True
-        
-        else:
-            return False
+    for i in domain:
+        result = predicate(i)
+        bool_var = True
+        if result:
+            return bool_var
+        if not result:
+            bool_var = False
+    return bool_var
 
 numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(forall(is_even,numbers1)) # False
