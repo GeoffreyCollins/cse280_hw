@@ -105,10 +105,10 @@ Use the starting code below to create set comprehensions as follows:
 
 
 ```python
-Set1 = None # Add Set Comprehension Code Here
-Set2 = None # Add Set Comprehension Code Here
-Set3 = None # Add Set Comprehension Code Here
-Set4 = None # Add Set Comprehension Code Here
+Set1 = [(1/x) for x in range(2,16) if x % 2 == 0] 
+Set2 = [(x * x) for x in range(-2,2)]
+Set3 = [x for x in range(1, 25) if 24 % x == 0]
+Set4 = [x for x in range(-10, 10) if x % 2 != 0]
 
 # Note that sets do not maintain order so it may vary
 print(Set1)
