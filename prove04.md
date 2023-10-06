@@ -19,13 +19,13 @@ For each of these functions, determine if they are well-defined, one-to-one, and
 |:-:|:-:|:-:|:-:|
 |$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(3,c),(4,d) \rbrace$|Yes|Yes|Yes|
 |$f : A \to B, \text{ where } f = \lbrace (1,a),(2,a),(3,b),(4,d) \rbrace$|Yes|No|Yes|
-|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(3,c) \rbrace$|No|Yes|Yes|
-|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(2,c),(3,a),(4,a) \rbrace$|No|No|No|
+|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(3,c) \rbrace$|Yes|Yes|Yes|
+|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(2,c),(3,a),(4,a) \rbrace$|No|No|Yes|
 |$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = x^3-x$|Yes|Yes|Yes|
 |$f : \mathbf{Z} \to \mathbf{Z}, \text{ where } f(x) = -x+2$|Yes|Yes|Yes|
 |$f : \mathbf{Z}^+ \to \mathbf{Z}^+, \text{ where } f(x) = \lceil \frac {n}{2} \rceil$|Yes|No|Yes|
 |$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$|Yes|No|Yes|
-|$f : \lbrace x \mid x \in \mathbf{R} , x \ne 5 \rbrace \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$|Yes|No|Yes|
+|$f : \lbrace x \mid x \in \mathbf{R} , x \ne 5 \rbrace \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$|Yes|Yes|Yes|
 
 ## Question 2 (9 points)
 
