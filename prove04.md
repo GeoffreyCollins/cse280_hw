@@ -18,14 +18,14 @@ For each of these functions, determine if they are well-defined, one-to-one, and
 |Function|Well-Defined|One-to-One|Onto|
 |:-:|:-:|:-:|:-:|
 |$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(3,c),(4,d) \rbrace$|Yes|Yes|Yes|
-|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,a),(3,b),(4,d) \rbrace$|Yes|No|Yes|
-|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(3,c) \rbrace$|Yes|Yes|Yes|
-|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(2,c),(3,a),(4,a) \rbrace$|No|No|Yes|
+|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,a),(3,b),(4,d) \rbrace$|No|No|Yes|
+|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(3,c) \rbrace$|Yes|Yes|No|
+|$f : A \to B, \text{ where } f = \lbrace (1,a),(2,b),(2,c),(3,a),(4,a) \rbrace$|No|No|No|
 |$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = x^3-x$|Yes|Yes|Yes|
-|$f : \mathbf{Z} \to \mathbf{Z}, \text{ where } f(x) = -x+2$|Yes|Yes|Yes|
+|$f : \mathbf{Z} \to \mathbf{Z}, \text{ where } f(x) = -x+2$|Yes|Yes|No|
 |$f : \mathbf{Z}^+ \to \mathbf{Z}^+, \text{ where } f(x) = \lceil \frac {n}{2} \rceil$|Yes|No|Yes|
-|$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$|Yes|No|Yes|
-|$f : \lbrace x \mid x \in \mathbf{R} , x \ne 5 \rbrace \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$|Yes|Yes|Yes|
+|$f : \mathbf{R} \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$|Yes|Yes|Yes|
+|$f : \lbrace x \mid x \in \mathbf{R} , x \ne 5 \rbrace \to \mathbf{R}, \text{ where } f(x) = \frac{5}{x-5}$|Yes|Yes|No|
 
 ## Question 2 (9 points)
 
@@ -34,7 +34,7 @@ Explain why $f : \mathbf{R} \to \mathbf{R} \text{ where } f(x) = x^2$ is a well 
 **Answer**:  
 * Is Well Defined because every x value in the function will point to some unique y value. 
 * Not One-to-One because some of the x values will point to the same y value, like -2, and a line would hit the graph more than once. 
-* Not Onto because multiple x's will hit the same value in some instances.
+* Not Onto because it will not be able to hit all real numbers, in this case any negative number.
 
 ## Question 3 (9 points)
 
