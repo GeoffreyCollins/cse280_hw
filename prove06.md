@@ -33,10 +33,10 @@ The list of 9 graphs below have 4 pairs of isomorphic graphs.  Find the 4 pairs.
 
 |#|Isomorphic Pairs|
 |:-:|:-:|
-|1st Pair|d,f|
+|1st Pair|d,e|
 |2nd Pair|b,i|
 |3rd Pair|c,g|
-|4th Pair|e,h|
+|4th Pair|a,f|
 
 Source: Question adapted from Applied Discrete Structures by Alan Doerr & Kenneth Levasseur which is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
 
@@ -96,7 +96,7 @@ Complete the tables below to identify the final state (per the FSM diagram) and 
 |00101|D|No|
 |011100|C|Yes|
 |01111|B|No|
-|0101|D|No|
+|0101|C|Yes|
 |00000|C|Yes|
 |11111|D|No|
 |11100|D|No|
@@ -109,13 +109,13 @@ Complete the tables below to identify the final state (per the FSM diagram) and 
 |Input|Final State|Accepting (Yes/No)|
 |:-:|:-:|:-:|
 |00101|S5|No|
-|011100|S2|No|
+|011100|S4|Yes|
 |01111|S4|Yes|
 |0101|S3|No|
 |00000|S5|No|
 |11111|S4|Yes|
 |11100|S2|No|
-|10011|S4|Yes|
+|10011|S5|No|
 
 ## Question 6
 
