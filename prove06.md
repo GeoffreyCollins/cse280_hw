@@ -79,8 +79,8 @@ Determine if the graph below has an Euler Circuit.  If it does, then write down 
 
 |Graph|Euler Cycle|
 |:-:|:-:|
-|![](prove06_graph4.png)|No Euler Cycle|
-|![](prove06_graph5.png)|No Euler Cycle|
+|![](prove06_graph4.png)|No Euler Cylce|
+|![](prove06_graph5.png)|2,3,4,6,1,5|
 |![](prove06_graph6.png)|1,2,9,10,3,4,8,7,12,11,6,5,1|
 
 ## Question 5 (20 points)
