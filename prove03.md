@@ -38,8 +38,8 @@ For each set described below, list 4 example values that would be in that set.  
 |$\lbrace x \in \mathbf{Z}^+ \mid x-1 \text{ is a multiple of 7} \rbrace$|15, 43, 85, 145|
 |$\lbrace x \mid x \text{ is a fruit and its skin is normally eaten} \rbrace$|Apple, Cherry, Kiwi, Grapefruit|
 |$\lbrace \frac 1 x \mid x \in \mathbf{Z}, x \neq 0 \rbrace$|$\frac 1 9, \frac 1 7, \frac 1 5, \frac 1 3 $|
-|$\lbrace 2n \mid n \in \mathbf{Z}, n \lt 0 \rbrace$|-100, -73, -38, -17 |
-|$\lbrace s \mid s = 1 + 2 + ... + n \text{ for some } n \in \mathbf{Z}^+ \rbrace$|20, 21, 22, 23|
+|$\lbrace 2n \mid n \in \mathbf{Z}, n \lt 0 \rbrace$|-2, -4, -6, -8 |
+|$\lbrace s \mid s = 1 + 2 + ... + n \text{ for some } n \in \mathbf{Z}^+ \rbrace$|1,2,3,4|
 
 ## Question 4 (9 points)
 
@@ -52,11 +52,11 @@ Let $A = \lbrace 0, 2, 3 \rbrace$, $B = \lbrace 2, 3 \rbrace$, and $C = \lbrace 
 |$B \cup A$|$\lbrace 0, 2, 3  \rbrace$|
 |$A \cup C$|$\lbrace 0,1,2,3,5,9 \rbrace$|
 |$A - B$|$\lbrace 0 \rbrace$|
-|$B - A$|$\lbrace 2,3 \rbrace$|
+|$B - A$|$\emptyset$|
 |$\overline{A}$|$ \lbrace 1,4,5,6,7,8,9 \rbrace$|
 |$\overline{C}$|$ \lbrace 0, 2, 3, 4, 6, 7, 8 \rbrace$|
 |$A \cap C$|$\emptyset$|
-|$A \oplus B$|$\lbrace 2,3 \rbrace$|
+|$A \oplus B$|$\lbrace 0 \rbrace$|
 
 ## Question 5 (4 points)
 
@@ -86,7 +86,7 @@ Hint: Make a list of numbers that are in each of these sets.
 
 List all of the partitions  (how many ways can we split according to the rules of partitions) of the set $A = \lbrace a, b, c \rbrace$.
 
-**Answer**: |$ \lbrace(a), (b), (c) \rbrace, \lbrace(a, b), (c), \rbrace, \lbrace(a,c), (b)\rbrace, \lbrace(a,b,c)\rbrace, \lbrace (a), (b,c)\rbrace, \lbrace(b), (a,c)\rbrace, \lbrace(c), (a,b)\rbrace $|
+**Answer**: |$\lbrace(a,b,c)\rbrace, \lbrace(a, b), (c), \rbrace, \lbrace(a,c), (b)\rbrace, \lbrace (b,c), (a)\rbrace, \lbrace(b), (a,c)\rbrace, \lbrace(c), (a,b)\rbrace $|
 
 ## Question 8 (12 points)
 
@@ -105,8 +105,8 @@ Use the starting code below to create set comprehensions as follows:
 
 
 ```python
-Set1 = [(1/x) for x in range(2,16) if x % 2 == 0] 
-Set2 = [(x * x) for x in range(-2,2)]
+Set1 = [(1/x) for x in {2,4,8,16} if x % 2 == 0] 
+Set2 = [(x * x) for x in {2,4,8,16}]
 Set3 = [x for x in range(1, 25) if 24 % x == 0]
 Set4 = [x for x in range(-10, 10) if x % 2 != 0]
 
