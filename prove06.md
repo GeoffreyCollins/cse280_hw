@@ -94,7 +94,7 @@ Complete the tables below to identify the final state (per the FSM diagram) and 
 |Input|Final State|Accepting (Yes/No)|
 |:-:|:-:|:-:|
 |00101|D|No|
-|011100|C|Yes|
+|011100|D|No|
 |01111|B|No|
 |0101|C|Yes|
 |00000|C|Yes|
@@ -109,13 +109,13 @@ Complete the tables below to identify the final state (per the FSM diagram) and 
 |Input|Final State|Accepting (Yes/No)|
 |:-:|:-:|:-:|
 |00101|S5|No|
-|011100|S4|Yes|
+|011100|S2|No|
 |01111|S4|Yes|
 |0101|S3|No|
 |00000|S5|No|
 |11111|S4|Yes|
 |11100|S2|No|
-|10011|S5|No|
+|10011|S4|Yes|
 
 ## Question 6
 
