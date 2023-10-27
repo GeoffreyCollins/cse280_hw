@@ -26,11 +26,11 @@ Determine if the following relations are Reflexive, Anti-Reflexive, or Neither b
 |Relation Set|Reflexive|Anti-Reflexive|Neither|
 |:-:|:-:|:-:|:-:|
 |$xRy, \text{ if }x \ge y$|X|||
-|$xRy, \text{ if }x \gt y$||X||
+|$xRy, \text{ if }x \gt y$|||X|
 |$xRy, \text{ if }x + 1 = y$|||X|
 |$xRy, \text{ if }x + y = 2$|||X|
 |$xRy, \text{ if }\lceil x \rceil \le \lceil y \rceil$||X||
-|$xRy, \text{ if }x^3 = y^3$|X|||
+|$xRy, \text{ if }x^3 = y^3$|||X|
 
 ## Question 3 (6 points)
 
@@ -38,9 +38,9 @@ Determine if the following relations (same from Question 2) are Symmetric, Anti-
 
 |Relation Set|Symmetric|Anti-Symmetric|Neither|
 |:-:|:-:|:-:|:-:|
-|$xRy, \text{ if }x \ge y$|||X|
-|$xRy, \text{ if }x \gt y$||X||
-|$xRy, \text{ if }x + 1 = y$|||X|
+|$xRy, \text{ if }x \ge y$||X||
+|$xRy, \text{ if }x \gt y$|||X|
+|$xRy, \text{ if }x + 1 = y$||X||
 |$xRy, \text{ if }x + y = 2$|X|||
 |$xRy, \text{ if }\lceil x \rceil \le \lceil y \rceil$||X||
 |$xRy, \text{ if }x^3 = y^3$|X|||
@@ -64,7 +64,7 @@ Determine if the following relations (same from Question 2) are Equivalences by 
 
 |Relation Set|Equivalence|
 |:-:|:-:|
-|$xRy, \text{ if }x \ge y$|Yes|
+|$xRy, \text{ if }x \ge y$|No|
 |$xRy, \text{ if }x \gt y$|No|
 |$xRy, \text{ if }x + 1 = y$|No|
 |$xRy, \text{ if }x + y = 2$|No|
@@ -79,7 +79,7 @@ Select the relations below that are equivalence relations if the domain is {1, 2
 |:-:|:-:|
 |$\lbrace (1,4), (4,1), (2,2), (3,3) \rbrace$|No|
 |$\lbrace (1,4), (4,1), (1,3), (3,1), (2,2) \rbrace$|Yes|
-|$\lbrace (1,4), (4,1), (1,1), (2,2), (3,3), (4,4) \rbrace$|No|
+|$\lbrace (1,4), (4,1), (1,1), (2,2), (3,3), (4,4) \rbrace$|Yes|
 |$\lbrace (1,4), (4,1), (1,3), (3,1), (1,1), (2,2), (3,3), (4,4) \rbrace$|Yes|
 |$\lbrace (1,4), (4,1), (1,3), (3,1), (3,4), (4,3), (1,1), (2,2), (3,3), (4,4) \rbrace$|Yes|
 
@@ -89,8 +89,8 @@ For each directed graph below representing a relation, determine based on its fo
 
 |Directed Graph of Relation|Reflexive|Symmetric|Transitive|Equivalence|
 |:-:|:-:|:-:|:-:|:-:|
-|![](prove05_diagram2.gv.png)|No|No|Yes|No|
+|![](prove05_diagram2.gv.png)|No|No|No|No|
 |![](prove05_diagram3.gv.png)|Yes|Yes|Yes|Yes|
-|![](prove05_diagram4.gv.png)|Yes|No|No|No|
-|![](prove05_diagram5.gv.png)|Yes|Yes|No|No|
+|![](prove05_diagram4.gv.png)|Yes|Yes|No|No|
+|![](prove05_diagram5.gv.png)|Yes|Yes|Yes|Yes|
 
