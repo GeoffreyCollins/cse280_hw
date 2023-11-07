@@ -17,10 +17,10 @@ Give the first six terms of the following sequences starting with the value spec
 
 |Description|First 6 terms in the Sequence|
 |:-:|:-:|
-|A geometric sequence in which the first value is 5 and the common ratio is 7||
-|An arithmetic sequence in which the first value is 3 and the common difference is 2.||
-|A geometric sequence in which the first value is 36 and the common ratio is 1/4.||
-|An arithmetic sequence in which the first value is 9 and the common difference is -1/2.||
+|A geometric sequence in which the first value is 5 and the common ratio is 7|5, 35, 245, 1715, 12005, 84035|
+|An arithmetic sequence in which the first value is 3 and the common difference is 2.|3, 5, 7, 9, 11, 13|
+|A geometric sequence in which the first value is 36 and the common ratio is 1/4.|36, 9, 2.25, 0.5625, .140625, 0.03515625|
+|An arithmetic sequence in which the first value is 9 and the common difference is -1/2.|9, 8.5, 8, 7.5, 7, 6.5|
 
 ## Question 2 (20 points)
 
@@ -35,16 +35,32 @@ Write recursive functions in python that will return the value of $f_n$ term for
 
 ```python
 def fun1(n):
-    # Add recursive code here
+    if n == 0:
+        return 5
+    else:
+        return fun1(n - 1) + (3 * n)
 
 def fun2(n):
-    # Add recursive code here
+    if n == 0:
+        return 1
+    else:
+        return n * n * n + fun2(n - 1)
 
 def fun3(n):
-    # Add recursive code here
+    if n == 0:
+        return 1
+    elif n == 1:
+        return 3
+    else:
+        return fun3(n - 1) * fun3(n - 2)
 
 def fun4(n):
-    # Add recursive code here
+    if n == 0:
+        return 1
+    elif n == 1:
+        return 5
+    else:
+        return fun4(n - 1) + (fun4(n - 2) * fun4(n - 2))
 
 print([fun1(n) for n in range(10)]) # [5, 8, 14, 23, 35, 50, 68, 89, 113, 140]
 print([fun2(n) for n in range(10)]) # [1, 2, 10, 37, 101, 226, 442, 785, 1297, 2026]
@@ -74,13 +90,13 @@ Write a list comprehension in Python for each of the following.  The `sum` funct
 |4|$\displaystyle\sum_{k=-2}^{7}2^k$|
 
 ```python
-seq1 = # Add list comprehension here
+seq1 = [x**3 for x in range(1,54)]
 
-seq2 = # Add list comprehension here
+seq2 = [2**x - 2 for x in range(4,28)]
 
-seq3 = # Add list comprehension here
+seq3 = [x**5 + 1 for x in range(-3, 19)]
 
-seq4 = # Add list comprehension here
+seq4 = [2**x for x in range(-2, 8)]
 
 print(sum(seq1)) # 2047761
 print(sum(seq2)) # 268435392
