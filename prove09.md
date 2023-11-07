@@ -74,9 +74,9 @@ Evaluate the following sums manually:
 
 |Summation|Value|
 |:-:|:-:|
-|$\displaystyle\sum_{i=0}^{5}3i+1$||
-|$\displaystyle\sum_{i=1}^{4}(-1)^i$||
-|$\displaystyle\sum_{i=0}^{5}2^i$||
+|$\displaystyle\sum_{i=0}^{5}3i+1$|51|
+|$\displaystyle\sum_{i=1}^{4}(-1)^i$|0|
+|$\displaystyle\sum_{i=0}^{5}2^i$|63|
 
 ## Question 4 (20 points)
 
