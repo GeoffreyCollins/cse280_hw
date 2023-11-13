@@ -5,11 +5,11 @@ file completed or uncompleted in a public file sharing site.
 
 **Instructions**: Answer each question using proper markdown notation as needed.  Use the preview view in Visual Studio Code (or another editor if desired) to see the formatting, tables, and mathematical formula properly rendered.  If you need to write code, then first test your code in a separate file and then copy the code into this document using code fences. 
 
-**Name**:
+**Name**: Geoffrey Collins
 
-**Section**:
+**Section**: 02
 
-**Teacher**:
+**Teacher**: Brother Macbeth
 
 ## Question 1 (5 points)
 
@@ -17,11 +17,11 @@ Evaluate the following as "True" or "False":
 
 |Expression|Answer|
 |:-:|:-:|
-|$3 \vert 12$||
-|$3 \vert 13$||
-|$14 \vert 58$||
-|$73 \vert 1752$||
-|$73 \vert 1753$||
+|$3 \vert 12$|True|
+|$3 \vert 13$|False|
+|$14 \vert 58$|False|
+|$73 \vert 1752$|True|
+|$73 \vert 1753$|False|
 
 ## Question 2 (5 points)
 
@@ -54,8 +54,8 @@ Find the GCD and LCM of the following numbers shown in non-decresasing prime fac
 |$x$|$y$|$GCD(x,y)$|$LCM(x,y)$|
 |:-:|:-:|:-:|:-:|
 |$2^3 \sdot 3^2 \sdot 5$|$2 \sdot 3^3 \sdot 5^2 \sdot 7$|$2 \sdot 3^2 \sdot 5$||
-|$2 \sdot 5^3 \sdot 7 \sdot 11^2$|$2^3 \sdot 3 \sdot 5 \sdot 11$|||
-|$2^2 \sdot 3 \sdot 7^2 \sdot 13$|$2 \sdot 3^2 \sdot 5 \sdot 7 \sdot 13^2$|||
+|$2 \sdot 5^3 \sdot 7 \sdot 11^2$|$2^3 \sdot 3 \sdot 5 \sdot 11$|$2 \sdot 5^2 \sdot 11 $||
+|$2^2 \sdot 3 \sdot 7^2 \sdot 13$|$2 \sdot 3^2 \sdot 5 \sdot 7 \sdot 13^2$|$2 \sdot 3 \sdot 7 \sdot 13$||
 
 ## Question 5 (7 points)
 
