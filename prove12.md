@@ -15,31 +15,31 @@ file completed or uncompleted in a public file sharing site.
 
 Tessie and her friends have between them 15 board games, 12 card games, and 1 word game.  If their game nights feature the word game plus one other game (either a board game or a card game), how many different game nights can they have?
 
-**Answer**: 
+**Answer**: 180
 
 ## Question 2 (3 points)
 
 Now Tessie and her friends have acquired two more word games (for a total of 3) and have deided to vary the snacks they munch on while playing games.  They have selected 7 different types of snacks.  If a game-night configuration consists of a word game, another game (either a board or card game), and a snack, then how many different game-night configurations are possible now?
 
-**Answer**: 
+**Answer**: P(30, 7)
 
 ## Question 3 (3 points)
 
 How many different 8-character passwords are possible if all uppercase (A-Z), lowercase (a-z), and digits (0-9) are allowed?
 
-**Answer**: 
+**Answer**: P(62, 8)
 
 ## Question 4 (3 points)
 
 How many three-letter acronyms (arrangements of 3 alphabetic letters) are there with repetition allowed?  Assume uppercase (A-Z) only.
 
-**Answer**: 
+**Answer**: $(\frac{26}{3})$
 
 ## Question 5 (3 points)
 
 How many three-letter acronyms (arrangements of 3 alphabetic letters) are there with repetition **not** allowed?  Assume uppercase (A-Z) only.
 
-**Answer**: 
+**Answer**: 15,600
 
 ## Question 6 (3 points)
 
@@ -51,7 +51,7 @@ For example:
 * XY236
 * XYZ123
 
-**Answer**: 
+**Answer**: P(37, 2) + P(37,3)
 
 ## Question 7 (4 points)
 
@@ -59,22 +59,22 @@ Suppose you flip a fair coin 10 times.  Determine how many ways you can get each
 
 |Scenario|Number of Ways|
 |:-:|:-:|
-|no heads||
-|exactly one head||
-|exactly two heads||
-|at least two heads||
+|no heads|1|
+|exactly one head|10|
+|exactly two heads|45|
+|at least two heads|1013|
 
 ## Question 8 (3 points)
 
 Consider the following fruit that is available to you: raspberries, strawberries, blueberries, apples, oranges, bananas, kiwi, papaya, and mango.  Just choosing five from the list of 9, how many different combinations of fruit salad can you make?
 
-**Answer**: 
+**Answer**: 60,480
 
 ## Question 9 (3 points)
 
 What is the number of different strings that can be formed by reordering the characters in the word `SUCCESS`?
 
-**Answer**: 
+**Answer**: $\frac{7!}{4!3!}$
 
 ## Question 10 (22 points)
 
