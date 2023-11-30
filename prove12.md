@@ -87,12 +87,11 @@ from math import factorial
 # factorial(6) = 6! = 720
 
 def P(n,r):
-    # Add your code here.  Recommend using integer division instead of regular division
-    pass
+    return factorial(n) // factorial(n - r)
+    
 
 def C(n,r):
-    # Add your code here.  Recommend using integer division instead of regular division
-    pass
+    return P(n, r) // factorial(r)
 
 ```
 
@@ -102,9 +101,9 @@ Use the `P(n,r)` function you wrote to answer the following problems:
 
 |Scenario|Answer|
 |:-:|:-:|
-|How many different arrangements can be made of 5 people from a group of 8 people to stand in line for a picture?||
-|How many different ways can 8 different projects be assigned to 26 people?  Only one project per person.  Not all people will be assigned to a project.||
-|How many different ways can we assign 15 pilots to 100 possible flight schedules?||
+|How many different arrangements can be made of 5 people from a group of 8 people to stand in line for a picture?|6720|
+|How many different ways can 8 different projects be assigned to 26 people?  Only one project per person.  Not all people will be assigned to a project.|62990928000|
+|How many different ways can we assign 15 pilots to 100 possible flight schedules?|331284225412682501619179520000|
 
 ### Part 3
 
@@ -112,8 +111,8 @@ Use the `C(n,r)` function you wrote to answer the following problems:
 
 |Scenario|Answer|
 |:-:|:-:|
-|How many ways can we form a committee of 5 people from a group of 8 people?||
-|How many ways can we select 8 people from a group of 26 people to work on a single project, assuming all people are equally qualified?||
-|How many ways can we selet 15 winners for a vacation drawing from a group of 100 contestants assuming each prize is the same?||
+|How many ways can we form a committee of 5 people from a group of 8 people?|56|
+|How many ways can we select 8 people from a group of 26 people to work on a single project, assuming all people are equally qualified?|1562275|
+|How many ways can we selet 15 winners for a vacation drawing from a group of 100 contestants assuming each prize is the same?|253338471349988640|
 
 
