@@ -29,11 +29,11 @@ Given the following expressions, solve for $n$:
 
 |Expressions|$n$|
 |:-:|:-:|
-|$n \text{ div } 11 = 4 \text{ , } n \text{ mod } 11 = 3$||
-|$n \text{ div } 5 = 8 \text{ , } n \text{ mod } 5 = 1$||
-|$n \text{ div } 7 = 9 \text{ , } n \text{ mod } 7 = 0$||
-|$n \text{ div } 15 = 4 \text{ , } n \text{ mod } 15 = 7$||
-|$n \text{ div } 13 = -2 \text{ , } n \text{ mod } 13 = 3$||
+|$n \text{ div } 11 = 4 \text{ , } n \text{ mod } 11 = 3$|47|
+|$n \text{ div } 5 = 8 \text{ , } n \text{ mod } 5 = 1$|41|
+|$n \text{ div } 7 = 9 \text{ , } n \text{ mod } 7 = 0$|63|
+|$n \text{ div } 15 = 4 \text{ , } n \text{ mod } 15 = 7$|67|
+|$n \text{ div } 13 = -2 \text{ , } n \text{ mod } 13 = 3$|-23|
 
 ## Question 3 (6 points)
 
@@ -53,9 +53,9 @@ Find the GCD and LCM of the following numbers shown in non-decresasing prime fac
 
 |$x$|$y$|$GCD(x,y)$|$LCM(x,y)$|
 |:-:|:-:|:-:|:-:|
-|$2^3 \sdot 3^2 \sdot 5$|$2 \sdot 3^3 \sdot 5^2 \sdot 7$|$2 \sdot 3^2 \sdot 5$|$2^3 \sdot 3^3 \sdot 5^2$|
-|$2 \sdot 5^3 \sdot 7 \sdot 11^2$|$2^3 \sdot 3 \sdot 5 \sdot 11$|$2 \sdot 5 \sdot 11 $|$2^3 \sdot 5^3 \sdot 11^2$|
-|$2^2 \sdot 3 \sdot 7^2 \sdot 13$|$2 \sdot 3^2 \sdot 5 \sdot 7 \sdot 13^2$|$2 \sdot 3 \sdot 7 \sdot 13$|$2^2 \sdot 3^2 \sdot 7^2 \sdot 13^2$|
+|$2^3 \sdot 3^2 \sdot 5$|$2 \sdot 3^3 \sdot 5^2 \sdot 7$|$2 \sdot 3^2 \sdot 5$|$2^3 \sdot 3^3 \sdot 5^2 \sdot 7$|
+|$2 \sdot 5^3 \sdot 7 \sdot 11^2$|$2^3 \sdot 3 \sdot 5 \sdot 11$|$2 \sdot 5 \sdot 11 $|$2^3 \sdot 5^3 \sdot 7 \sdot 11^2$|
+|$2^2 \sdot 3 \sdot 7^2 \sdot 13$|$2 \sdot 3^2 \sdot 5 \sdot 7 \sdot 13^2$|$2 \sdot 3 \sdot 7 \sdot 13$|$2^2 \sdot 3^2 \sdot 5 \sdot 7^2 \sdot 13^2$|
 
 ## Question 5 (7 points)
 
