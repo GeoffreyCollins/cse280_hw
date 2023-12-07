@@ -15,13 +15,13 @@ file completed or uncompleted in a public file sharing site.
 
 Tessie and her friends have between them 15 board games, 12 card games, and 1 word game.  If their game nights feature the word game plus one other game (either a board game or a card game), how many different game nights can they have?
 
-**Answer**: 180
+**Answer**: 27
 
 ## Question 2 (3 points)
 
 Now Tessie and her friends have acquired two more word games (for a total of 3) and have deided to vary the snacks they munch on while playing games.  They have selected 7 different types of snacks.  If a game-night configuration consists of a word game, another game (either a board or card game), and a snack, then how many different game-night configurations are possible now?
 
-**Answer**: P(30, 7)
+**Answer**: 42
 
 ## Question 3 (3 points)
 
@@ -33,7 +33,7 @@ How many different 8-character passwords are possible if all uppercase (A-Z), lo
 
 How many three-letter acronyms (arrangements of 3 alphabetic letters) are there with repetition allowed?  Assume uppercase (A-Z) only.
 
-**Answer**: $(\frac{26}{3})$
+**Answer**: $26^3$
 
 ## Question 5 (3 points)
 
@@ -68,13 +68,13 @@ Suppose you flip a fair coin 10 times.  Determine how many ways you can get each
 
 Consider the following fruit that is available to you: raspberries, strawberries, blueberries, apples, oranges, bananas, kiwi, papaya, and mango.  Just choosing five from the list of 9, how many different combinations of fruit salad can you make?
 
-**Answer**: 60,480
+**Answer**: C(9,5)
 
 ## Question 9 (3 points)
 
 What is the number of different strings that can be formed by reordering the characters in the word `SUCCESS`?
 
-**Answer**: $\frac{7!}{4!3!}$
+**Answer**: $\frac{7!}{3!1!2!1!}$
 
 ## Question 10 (22 points)
 
